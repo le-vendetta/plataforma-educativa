@@ -22,9 +22,44 @@ Para poder instalar es necesario tener conocimientos de laravel (usar composer i
 - Tener redis instalado y ejecutandose (sirve para las acciones en tiempo real y notificaciones)
 
 ##Alumno
+Inicio de sesion
+![Inicio de sesion](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-1.PNG)
 
-![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)
+Bienvenida
+![Bienvenida](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-2.PNG)
+
+Logros
+![Logros](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-3.PNG)
+
+Cursos
+![Cursos](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-4.PNG)
+
+Lecciones
+![Lecciones](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-5.PNG)
+
+Leccion
+![Leccion](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-6.PNG)
+
+Logro
+![Logro](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/Captura.PNG)
 
 ##Profesor
+Dashboard
+![Dashboard](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-10.PNG)
 
+Cursos
+![Cursos](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-11.PNG)
+Añadir leccion
+![Leccion](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-9.PNG)
+
+Iniciar clase
+![iniciar clase](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-12.PNG)
 ##Administrador
+Cursos
+![Cursos](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-7.PNG)
+
+Alumnos
+![Alumnos](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-8.PNG)
+
+
+Sientete libre de usar el codigo como gustes, y si haces algo importante no olvides darme el credito :).
