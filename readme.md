@@ -12,16 +12,21 @@ Para poder instalar es necesario tener conocimientos de laravel (usar composer i
   - Dentro de api-laravel en terminal ejecutar "php artisan migrate --seed"
   - Correr el servidor usando "php artisan serve" o meterlo en la carpeta de tu servidor.
 
-**Front-react**, debes descomprimir el archivo front-react.zip y dirigirte a la carpeta, es necesario tener node y npm instalados.
+**Front-react**, debes descomprimir el archivo front-react.zip y dirigirte a la carpeta, es necesario tener node y npm instalados, lo ideal es que en algun momento hayas usado react.
 
 - En el archivo public/index.html buscar socket.io/socket.io.js y cambiarlo por la ruta del servidor node (mas adelante explicare de donde sale).
 - En el archivo public/index.html buscar window.api = y cambiar su valor por la ruta de api-laravel, si ya esta en un dominio hay que adjuntar "/api/" ejemplo: window.api = "http://api-laravel.mi-dominio.com/api/"
 - En el archivo public/index.html buscar window.storage = y cambiar su valor por la ruta de api-laravel, si ya esta en un dominio hay que adjuntar "/storage/" ejemplo: window.storage = "http://api-laravel.mi-dominio.com/storage/"
+- En el archivo public/index.html buscar la configuracion de firebase config = ... , es necesario crear una aplicacion en firebase (se puede omitir): https://firebase.google.com/ 
+- Ejecutar el comando "npm install".
+- Ejecutar el comando "npm run build".
+
 
 **Servidor node**, dentro de api-laravel/require esta el archivo server.js y package.json puedes moverlo de carpeta o dejarlo ahi, debes ejecutar "npm install" dentro de esa carpeta.
 - Tener redis instalado y ejecutandose (sirve para las acciones en tiempo real y notificaciones)
 
 ##Alumno
+
 Inicio de sesion
 ![Inicio de sesion](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-1.PNG)
 
@@ -44,6 +49,7 @@ Logro
 ![Logro](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/Captura.PNG)
 
 ##Profesor
+
 Dashboard
 ![Dashboard](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-10.PNG)
 
@@ -54,7 +60,9 @@ Añadir leccion
 
 Iniciar clase
 ![iniciar clase](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-12.PNG)
+
 ##Administrador
+
 Cursos
 ![Cursos](https://raw.githubusercontent.com/le-vendetta/plataforma-educativa/master/imagenes/plataforma-7.PNG)
 
